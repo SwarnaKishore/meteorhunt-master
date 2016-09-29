@@ -1,5 +1,5 @@
 AppController = RouteController.extend({
-  layoutTemplate: 'appLayout'
+  layoutTemplate: 'layout'
 });
 
 TrendingController = AppController.extend({});

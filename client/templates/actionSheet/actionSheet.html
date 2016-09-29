@@ -1,9 +1,7 @@
 <template name="actionSheet">
   {{#contentFor "headerButtonLeft"}}
     {{>ionNavBackButton path="index"}}
-     <button class="button button-clear pull-left button-positive" data-ion-modal="search">
-      {{> ionIcon icon='ios-search'}}
-    </button>
+   
   {{/contentFor}}
 
   {{#contentFor "headerTitle"}}
@@ -16,7 +14,7 @@
     </button>
   {{/contentFor}}
 
-  
+
     {{#ionView}}
     {{#ionContent}}
       {{#ionList}}

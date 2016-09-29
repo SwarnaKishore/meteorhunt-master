@@ -47,7 +47,7 @@
 
      {{#if isAndroid}}
       {{#ionTabs style="android"}}
-         {{> ionTab title="Categories" path="categories" icon="android-star"}}
+         {{> ionTab title="Categories" path="index" icon="android-star"}}
         {{> ionTab title="Trending" path="trending" icon="android-star"}}
         {{> ionTab title="Recent" path="recent" icon="android-time"}}
         {{> ionTab title="Notifications" path="notifications" icon="android-notifications"}}
@@ -55,7 +55,7 @@
       {{/ionTabs}}
     {{else}}
       {{#ionTabs style="ios"}}
-         {{> ionTab title="Categories" path="categories" iconOff="ios-bolt-outline" iconOn="ios-bolt" class="tab-item-positive"}}
+         {{> ionTab title="Categories" path="index" iconOff="ios-bolt-outline" iconOn="ios-bolt" class="tab-item-positive"}}
         {{> ionTab title="Trending" path="trending" iconOff="ios-bolt-outline" iconOn="ios-bolt" class="tab-item-positive"}}
         {{> ionTab title="Recent" path="recent" iconOff="ios-clock-outline" iconOn="ios-clock" class="tab-item-positive"}}
         {{> ionTab title="Notifications" path="notifications" iconOff="ios-bell-outline" iconOn="ios-bell" class="tab-item-positive"}}
